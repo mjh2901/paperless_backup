@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Set the backup directory (adjust as needed)
+# The default export directory for papercut is ../export
 BACKUP_DIR="/path/to/your/export"
 
 # Ensure the backup directory exists
