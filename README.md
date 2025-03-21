@@ -1,4 +1,4 @@
-# paperless Backup
+# Paperless Backup
 Paperless-NGX backup script
 
 Here’s your instructions in **Markdown format**:
