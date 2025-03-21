@@ -3,7 +3,7 @@ Paperless-NGX backup script
 
 
 ## **How to Use the Script**
-1. **Modify the `BACKUP_DIR`** variable to match your actual backup directory.
+1. **Modify the `BACKUP_DIR`** variable to match your actual backup directory.  If you are having trouble with script try setting backup directory to ../export and make sure your docker compose has a drive setup for export.
 2. **Save the script** as `paperless_backup.sh`.
 3. **Give execution permission:**
    ```bash
