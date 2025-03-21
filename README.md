@@ -5,7 +5,7 @@ Here’s your instructions in **Markdown format**:
 
 ## **How to Use the Script**
 1. **Modify the `BACKUP_DIR`** variable to match your actual backup directory.
-2. **Save the script** as `backup_paperless.sh`.
+2. **Save the script** as `paperless_backup.sh`.
 3. **Give execution permission:**
    ```bash
    chmod +x backup_paperless.sh
