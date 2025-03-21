@@ -1,7 +1,6 @@
 # Paperless Backup
 Paperless-NGX backup script
 
-Here’s your instructions in **Markdown format**:
 
 ## **How to Use the Script**
 1. **Modify the `BACKUP_DIR`** variable to match your actual backup directory.
