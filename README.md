@@ -1,4 +1,4 @@
-# Paperless Backup
+# Paperless-NGX Backup
 Paperless-NGX backup script
 
 
