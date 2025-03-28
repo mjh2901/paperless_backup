@@ -14,7 +14,7 @@ BACKUP_FILE="${BACKUP_DIR}/$(date +\%Y-\%m-\%d).zip"
 docker exec paperless_container_name document_exporter "$BACKUP_DIR" -z
 
 # Keep only the last 7 backups, delete older ones
-ls -t "$BACKUP_DIR"/*.zip | tail -n +8 | xargs rm -f
+find "$BACKUP_DIR" -type f -name "*.zip" -printf "%T@ %p\n" | sort -nr | tail -n +8 | cut -d' ' -f2- | xargs rm -f
 
 # Print a message
 echo "Backup complete. Retaining last 7 backups."
